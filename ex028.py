@@ -5,13 +5,17 @@
  
  
 from random import randint
+from time import sleep #adicionei para dar uma atmosfera de jogo
 machine = randint(0,5)
 usuario = int(input('Te desafio a adivinhar o número que pensei! digite um número: '))
+print('processando')
+sleep(2)#essa funcionalidade suspende por uns segundos, dando a impressão que o computador está pensado
 if usuario==machine:
     print('Parabéns, você acertou!!!')
 else:
     print('Você falhou, o número é {}'.format(machine))
-    
+
+
 
 
 
