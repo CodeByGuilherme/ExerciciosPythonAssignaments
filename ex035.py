@@ -12,6 +12,6 @@ if r2 < r1+r3:
 if r3 < r1+r2:
     true=r3  
 if r1==true and r2==true and r3==true:
-    print('As retas indicadas formam um triângulo.')   
+    print('\033[4:33:44mAs retas indicadas formam um triângulo.')   
 else:
-    print('Não foi possível formar um triângulo.') 
+    print('\033[0;37;41mNão foi possível formar um triângulo.') 
